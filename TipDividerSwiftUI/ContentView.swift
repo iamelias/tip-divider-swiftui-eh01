@@ -15,10 +15,15 @@ struct ContentView: View {
     @State var stepValue: Int = 0
     var body: some View {
         VStack {
+            VStack {
             Text("TipDivider")
                 .fontWeight(.heavy)
                 .padding()
+            }
+            Spacer()
+            VStack {
             Text("$0.00")
+                .font(.system(size: 33))
                 .fontWeight(.heavy)
             Text("Tip: 0.00/person")
                 .fontWeight(.bold)
@@ -43,8 +48,13 @@ struct ContentView: View {
                     .fontWeight(.bold)
                     .accentColor(Color.black)
                     .padding()
+                    .background(Color.yellow)
+                    .cornerRadius(10.0)
+                    .shadow(color: .black, radius: 1.0, x: 0.0, y: 2.0)
             })
                 }
+            Spacer()
+        }
     }
 }
 
