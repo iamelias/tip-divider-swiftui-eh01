@@ -13,6 +13,8 @@
 		6428A7EE25B4DBF600F277CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6428A7ED25B4DBF600F277CB /* Preview Assets.xcassets */; };
 		6428A7F925B4DBF700F277CB /* TipDividerSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6428A7F825B4DBF700F277CB /* TipDividerSwiftUITests.swift */; };
 		6428A80425B4DBF700F277CB /* TipDividerSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6428A80325B4DBF700F277CB /* TipDividerSwiftUIUITests.swift */; };
+		64F95B4B25B9BC8F006A8DFD /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F95B4A25B9BC8F006A8DFD /* Calculator.swift */; };
+		64F95B5025B9BC9F006A8DFD /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F95B4F25B9BC9F006A8DFD /* CalculatorViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		6428A7FF25B4DBF700F277CB /* TipDividerSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipDividerSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6428A80325B4DBF700F277CB /* TipDividerSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipDividerSwiftUIUITests.swift; sourceTree = "<group>"; };
 		6428A80525B4DBF700F277CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64F95B4A25B9BC8F006A8DFD /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		64F95B4F25B9BC9F006A8DFD /* CalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				6428A7EA25B4DBF600F277CB /* Assets.xcassets */,
 				6428A7EF25B4DBF600F277CB /* Info.plist */,
 				6428A7EC25B4DBF600F277CB /* Preview Content */,
+				64F95B4A25B9BC8F006A8DFD /* Calculator.swift */,
+				64F95B4F25B9BC9F006A8DFD /* CalculatorViewModel.swift */,
 			);
 			path = TipDividerSwiftUI;
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 			files = (
 				6428A7E925B4DBF300F277CB /* ContentView.swift in Sources */,
 				6428A7E725B4DBF300F277CB /* TipDividerSwiftUIApp.swift in Sources */,
+				64F95B5025B9BC9F006A8DFD /* CalculatorViewModel.swift in Sources */,
+				64F95B4B25B9BC8F006A8DFD /* Calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

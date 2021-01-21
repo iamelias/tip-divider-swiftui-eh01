@@ -22,6 +22,7 @@ struct ContentView: View {
             }
             Spacer()
             VStack {
+            VStack {
             Text("$0.00")
                 .font(.system(size: 33))
                 .fontWeight(.heavy)
@@ -53,6 +54,7 @@ struct ContentView: View {
                     .shadow(color: .black, radius: 1.0, x: 0.0, y: 2.0)
             })
                 }
+            }
             Spacer()
         }
     }
