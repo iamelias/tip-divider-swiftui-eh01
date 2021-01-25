@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Calculator {
+class Calculator: ObservableObject {
     var totalAmount: Double
     var numberOfPeople: Double
     var tipPercentage: Double

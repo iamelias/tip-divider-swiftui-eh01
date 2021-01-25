@@ -7,7 +7,7 @@
 
 import Foundation
 
-class CalculatorViewModel {
+class CalcViewModel: ObservableObject {
     var calc: Calculator
     var totalAmount: String {
         return "$" + String(format: "%.2f", calc.totalAmount)
